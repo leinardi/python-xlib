@@ -642,7 +642,7 @@ def get_display_opts(options, argv = sys.argv):
       ARGS    -- any remaining arguments
     """
 
-    from Xlib import display, Xatom
+    from . import display, Xatom
     import os
 
     name = os.path.splitext(os.path.basename(argv[0]))[0]

@@ -24,7 +24,7 @@
 ge - Generic Event Extension
 '''
 
-from Xlib.protocol import rq
+from ..protocol import rq
 
 extname = 'Generic Event Extension'
 

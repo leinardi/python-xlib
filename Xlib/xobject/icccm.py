@@ -19,8 +19,8 @@
 #    Suite 330,
 #    Boston, MA 02111-1307 USA
 
-from Xlib import X, Xutil
-from Xlib.protocol import rq
+from .. import X, Xutil
+from ..protocol import rq
 
 Aspect = rq.Struct( rq.Int32('num'), rq.Int32('denum') )
 

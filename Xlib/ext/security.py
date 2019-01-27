@@ -25,7 +25,7 @@ A partial implementation of the SECURITY extension.  Support for the
 SecurityAuthorizationRevoked event is not implemented.
 '''
 
-from Xlib.protocol import rq
+from ..protocol import rq
 
 
 extname = 'SECURITY'

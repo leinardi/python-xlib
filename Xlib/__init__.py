@@ -35,5 +35,5 @@ __all__ = [
     'error',
     'rdb',
     # Explicitly exclude threaded, so that it isn't imported by
-    #  from Xlib import *
+    #  from .. import *
     ]

@@ -22,7 +22,7 @@
 import re
 import socket
 
-from Xlib import error
+from .. import error
 
 display_re = re.compile(r'^([-a-zA-Z0-9._]*):([0-9]+)(\.([0-9]+))?$')
 

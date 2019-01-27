@@ -24,5 +24,5 @@ from six.moves import _thread
 # We change the allocate_lock function in Xlib.support.lock to
 # return a basic Python lock, instead of the default dummy lock
 
-from Xlib.support import lock
+from .support import lock
 lock.allocate_lock = _thread.allocate_lock

@@ -117,7 +117,7 @@ class Display(object):
             if extname in exts:
 
                 # Import the module and fetch it
-                __import__('Xlib.ext.' + modname)
+                __import__(__name__.rsplit('.', 1)[0] + '.ext.' + modname)
                 mod = getattr(ext, modname)
 
                 info = self.query_extension(extname)

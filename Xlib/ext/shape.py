@@ -1,7 +1,7 @@
 # Automatically generated file; DO NOT EDIT.
 # Generated from: /usr/share/xcb/shape.xml
 
-from Xlib.protocol import rq, structs
+from ..protocol import rq, structs
 
 
 extname = 'SHAPE'

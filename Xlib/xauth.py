@@ -22,7 +22,7 @@
 import os
 import struct
 
-from Xlib import X, error
+from . import X, error
 
 FamilyInternet = X.FamilyInternet
 FamilyDECnet = X.FamilyDECnet

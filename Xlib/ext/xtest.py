@@ -19,8 +19,8 @@
 #    Suite 330,
 #    Boston, MA 02111-1307 USA
 
-from Xlib import X
-from Xlib.protocol import rq
+from .. import X
+from ..protocol import rq
 
 extname = 'XTEST'
 

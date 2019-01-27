@@ -22,7 +22,7 @@
 
 """NV-CONTROL - provide access to the NV-CONTROL extension information."""
 
-from Xlib.protocol import rq
+from ..protocol import rq
 
 extname = 'NV-CONTROL'
 

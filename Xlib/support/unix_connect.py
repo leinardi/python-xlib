@@ -40,7 +40,7 @@ else:
     from FCNTL import F_SETFD, FD_CLOEXEC
 
 
-from Xlib import error, xauth
+from .. import error, xauth
 
 
 SUPPORTED_PROTOCOLS = (None, 'tcp', 'unix')

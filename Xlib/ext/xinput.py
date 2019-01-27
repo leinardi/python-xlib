@@ -31,8 +31,8 @@ import struct
 # Python 2/3 compatibility.
 from six import integer_types
 
-from Xlib.protocol import rq
-from Xlib import X
+from ..protocol import rq
+from .. import X
 
 
 extname = 'XInputExtension'

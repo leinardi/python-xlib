@@ -23,7 +23,7 @@
 # as a modular keysym definition and loading mechanism. See the keysym
 # definition modules in the Xlib/keysymdef directory.
 
-from Xlib.X import NoSymbol
+from .X import NoSymbol
 
 def string_to_keysym(keysym):
     '''Return the (16 bit) numeric code of keysym.
